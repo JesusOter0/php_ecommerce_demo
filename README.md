@@ -11,6 +11,5 @@ project_root/
 │   ├── galaxys21.jpg
 │   ├── wh1000xm4.jpg
 │   ├── xps13.jpg
-│   └── macbookair.jpg
 └── scripts/
     └── db_init.sql
