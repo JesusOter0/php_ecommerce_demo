@@ -6,7 +6,7 @@ try {
     $stmt = $conn->query('SELECT * FROM products');
     $products = $stmt->fetchAll();
 
-    echo "<h1>Products List</h1>";
+    echo "<h1>Lista de Productos</h1>";
     echo "<ul>";
     foreach ($products as $product) {
         echo "<li>";
