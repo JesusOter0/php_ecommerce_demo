@@ -17,6 +17,6 @@ try {
     }
     echo "</ul>";
 } catch (PDOException $e) {
-    echo 'Connection failed: An error occurred while fetching the products.';
+    echo 'Se ha producido un error al cargar los productos.';
 }
 ?>
