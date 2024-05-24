@@ -16,9 +16,9 @@ try {
         echo "<p>Category: {$product['category']}</p>";
         echo "<img src='{$product['image_path']}' alt='{$product['product_name']}'>";
     } else {
-        echo "<p>Product not found.</p>";
+        echo "<p>Producto no encontrado.</p>";
     }
 } catch (PDOException $e) {
-    echo 'Connection failed: An error occurred while fetching the products.';
+    echo 'se ha producido un error al cargar los productos.';
 }
 ?>
