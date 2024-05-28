@@ -18,10 +18,10 @@ try {
     // informacion del producto
     if ($product) {
         echo "<h1>{$product['product_name']}</h1>"; // Aquí muestro el nombre del producto.
-        echo "<p>Price: \${$product['price']}</p>"; // ¡Aquí muestro el precio del producto!
-        echo "<p>Quantity: {$product['quantity']}</p>"; // ¡Aquí muestro la cantidad disponible del producto!
+        echo "<p>Price: \${$product['price']}</p>"; // ¡Aquí muestro el precio del producto
+        echo "<p>Quantity: {$product['quantity']}</p>"; // Aquí muestro la cantidad disponible del producto!
         echo "<p>Category: {$product['category']}</p>"; // Aquí muestro la categoría del producto.
-        echo "<img src='{$product['image_path']}' alt='{$product['product_name']}'>"; // ¡Aquí muestro la imagen del producto!
+        echo "<img src='{$product['image_path']}' alt='{$product['product_name']}'>"; // Aquí muestro la imagen del producto
     } else {
         echo "<p>¡No encontré el producto!</p>"; // Si no encuentra el producto, sale un mensaje de error.
     }
