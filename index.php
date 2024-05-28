@@ -8,10 +8,10 @@
 </head>
 <body>
     <?php
-    if (isset($_GET['id'])) {
-        include 'product_details.php';
+    if (isset($_GET['id'])) { // Aquí verifico si se ha pasado el parámetro 'id' en la URL
+        include 'product_details.php'; // Aquí incluyo el archivo 'product_details.php' si se proporciona el parámetro 'id'
     } else {
-        include 'products_list.php';
+        include 'products_list.php'; // Aquí incluyo el archivo 'products_list.php' si no se proporciona el parámetro 'id'
     }
     ?>
 </body>
