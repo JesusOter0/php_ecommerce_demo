@@ -10,7 +10,7 @@ try {
 
     // Preparo una consulta SQL para encontrar un producto por su ID.
     $stmt = $conn->prepare('SELECT * FROM products WHERE product_id = :product_id');
-    // ¡Ejecuto la consulta SQL con el ID del producto como parámetro!
+    // Ejecuto la consulta SQL con el ID del producto como parámetro.
     $stmt->execute(['product_id' => $product_id]);
     // Aquí saco la primera fila del resultado de la consulta como un array asociativo.
     $product = $stmt->fetch();
