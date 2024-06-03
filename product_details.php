@@ -33,7 +33,7 @@ try {
                 echo "<p><strong>{$comment['user_name']}</strong>: {$comment['comment_text']}</p>";
             }
         } else {
-            echo "<p>No comments yet. Be the first to comment!</p>";
+            echo "<p>Se el primero en comentar...</p>";
         }
 
         // Formulario para agregar comentarios
